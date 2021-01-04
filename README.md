@@ -18,4 +18,6 @@ Launch the static costmap broadcaster. At a console:
 roslaunch texpert_costmap ut_campus.launch 
 ```
 The map can now be visualized in RViz. At a console:
-```rviz -d ~/texpert_ws/src/texpert_costmap/rviz/texpert_costmap.rviz```
+```
+rviz -d ~/texpert_ws/src/texpert_costmap/rviz/texpert_costmap.rviz
+```
