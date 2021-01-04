@@ -1,0 +1,14 @@
+<launch>
+
+    <!-- <arg name="namespace" value="walrus" /> -->
+
+    <node name="texpert_map" pkg="map_server" type="map_server" args="$(find texpert_costmap)/config/ut_campus.yaml" >
+        <!-- <remap from="map" to="walrus/ioc_costmap" /> -->
+        <!-- <remap from="map" to="walrus/ioc_costmap" /> -->
+        <!-- <param name="frame_id" value="walrus/map" /> -->
+    </node>
+
+    <node pkg="tf" type="static_transform_publisher" name="map_tf_broadcaster" args="125 130 0 0 0 .953717 .3007058 map walrus/map 100" /> -->
+    <!-- <node pkg="tf" type="static_transform_publisher" name="map_tf_broadcaster_2" args="0 0 0 0 0 0 1 walrus/map map 100" /> -->
+
+</launch>

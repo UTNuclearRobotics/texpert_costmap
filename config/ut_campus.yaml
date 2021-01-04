@@ -1,0 +1,7 @@
+image: ../maps/ut_costmap.png
+resolution: 1.0
+origin: [0, 0, 0] #origin in map
+#origin: [27.5, 180, -2.53] #origin in walrus/map
+occupied_thresh: 0.9
+free_thresh: 0.1
+negate: 1
