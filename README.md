@@ -1,6 +1,6 @@
 # texpert_costmap
 Launches a TEXPERT-generated costmap of the UT campus. No need for Phoenix!
-![The map](https://github.com/UTNuclearRobotics/texpert_costmap/texpert_costmap.png)
+![](texpert_costmap.png)
 
 ## Installation
 Create the workspace, clone the repo, build and source.
